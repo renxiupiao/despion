@@ -131,7 +131,6 @@ TTYPath=/dev/tty3
 ExecStartPre=/bin/chvt 3
 ExecStart=/mnt/dietpi_userdata/amiberry/amiberry
 ExecStopPost=/bin/chvt 1
-
 [Install]
 WantedBy=local-fs.target
 _EOF_
