@@ -118,3 +118,4 @@ G_EXEC chmod +x rootfs/etc/rc.local
 systemd-nspawn -bD rootfs --bind="$FP_LOOP"{,p1} --bind=/dev/disk
 [[ -f rootfs/squeezelite_$arch.deb ]] || exit 1
 }
+##########################################
